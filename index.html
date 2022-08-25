@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Calculator</title>
+</head>
+<body>
+    <div class="Ccontainer">
+        <div class="calculator">
+            <div class="input">
+                <center><input type="text" id="monitor" disabled></center>
+            </div>
+
+            <div class="btn-rows">
+                <button class="numbers" onclick="btnHandle(7)" id="7"  >7</button>
+                <button class="numbers" onclick="btnHandle(8)" id="8" >8</button>
+                <button class="numbers" onclick="btnHandle(9)" id="9" >9</button>
+                <button class="numbers" onclick="btnHandleCncl()" id="" >C</button>
+                <button class="numbers" onclick="btnHandleAc()" id="AC" >AC</button>
+            </div>
+            <div class="btn-rows">
+                <button class="numbers" onclick="btnHandle(4)" id="4" >4</button>
+                <button class="numbers" onclick="btnHandle(5)" id="5" >5</button>
+                <button class="numbers" onclick="btnHandle(6)" id="6" >6</button>
+                <button class="numbers" onclick="btnHandleDiv()" id="" >/</button>
+                <button class="numbers" onclick="btnHandleMul()" id="" >*</button>
+            </div>
+            <div class="btn-rows">
+                <button class="numbers" onclick="btnHandle(1)" id="1" >1</button>
+                <button class="numbers" onclick="btnHandle(2)" id="2" >2</button>
+                <button class="numbers" onclick="btnHandle(3)" id="3" >3</button>
+                <button class="numbers" onclick="btnHandleAdd()" id="" >+</button>
+                <button class="numbers" onclick="btnHandleSub()" id="" >-</button>
+            </div>
+            <div class="btn-rows">
+                <button class="numbers" onclick="btnHandle(0)" id="0" >0</button>
+                <button class="numbers" onclick="btnHandle(00)" id="zero" >00</button>
+                <button class="numbers" onclick="btnHandle('.')" id="dot" >.</button>
+                <button class="numbers" onclick="btnHandle()" id="" >%</button>
+                <button class="numbers" onclick="btnHandleAns()" id="" >=</button>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
